@@ -19,7 +19,6 @@ img{
     width: 950px;
     margin: 0 auto;
     padding-top: 1px;
-    padding-bottom: 20px;
     background-color: #fff;
 }
 .aside{
@@ -115,6 +114,9 @@ img{
     padding-bottom: 30px;
     border-bottom: 8px solid rgb(139, 139, 139);
 }
+.about-me:last-child, .education:last-child{
+    border-bottom: none;
+}
 .about-me h2,
 .education h2{
     font-size: 35px;
@@ -149,5 +151,25 @@ img{
     padding: 15px;
     font-size: 13px;
     background-color: #464646;
+    color: #fff;
+}
+.footer{
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #000;
+    color: #fff;
+}
+.footer__links{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+}
+.footer__links svg{
+    width: 110px;
+    fill: white;
+    stroke: black;
+}
+.footer__links a{
     color: #fff;
 }
