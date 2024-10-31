@@ -173,3 +173,7 @@ img{
 .footer__links a{
     color: #fff;
 }
+
+a span{
+    display: none;
+}
